@@ -44,3 +44,14 @@ else:
     print("Invalid email Id")
 
 
+import re
+
+s=input("enter the mobile number")
+m=re.fullmatch("91-([0-9]){10}",s)
+if m!=None:
+    print("Valid email Id")
+else:
+    print("Invalid email Id")
+
+
+print("Program ended")
