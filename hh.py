@@ -146,8 +146,51 @@
 #     link            a   href
 # )
 
+#
+# Grid
+#
+# Parallel execution
+# all the test scripts should be independent
+# hub will distibute testcripts
+# one hub can hae any number of nodes
+# we can perform parallex eceuction on the same machine as well./
 
+#
+# Grid
+#
+# Parallel execution
+# all the test scripts should be independent
+# hub will distribute the testscripts
+#
+#
 
+#
+# gRID
+#
+# pARALLELEXECT
+# we can perform parallel executon on the same machine as well
 
+#
+#
+# from selenium import webdriver
+#
+#
+# qspider=webdriver.Chrome()
+# qspider.get("https://www.facebook.com/")
 
+#
+# from selenium import webdriver
+#
+# qspider=webdriver.Chrome(executable_path="C:/Users/Admin/Downloads/New folder (11)/chromedriver.exe")
+# qspider.get("https://www.facebook.com/")
+# qspider.find_element_by_id("email").send_keys("9000000000")
+# qspider.find_element_by_id("pass").send_keys("999999999999")
+#
+
+#
+#
+# from selenium import webdriver
+#
+# qspider=webdriver.Chrome(executable_path="C:/Users/Admin/Downloads/New folder (11)/chromedriver.exe")
+# qspider.find_element_by_class_name("grp-button grp-default").click()
 
